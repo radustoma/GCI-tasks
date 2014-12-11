@@ -1,0 +1,63 @@
+SUMMARY="An Online Multiplayer Tactical Warfare Game"
+DESCRIPTION="netPanzer is an online multiplayer tactical warfare game
+  designed for FAST ACTION combat. Gameplay concentrates on the
+  core -- no resource management is needed. The game is based on quick
+  tactical action and unit management in real-time. Battles progress
+  quickly and constantly as destroyed players respawn with a set of new
+  units. Players can join or leave multiplayer games at any time.
+  "
+HOMEPAGE="http://www.netpanzer.org"
+SRC_URI="svn+svn://svn.berlios.de/netpanzer/trunk/netpanzer#1208"
+#CHECKSUM_MD5=""
+REVISION="2"
+LICENSE="GNU LGPL v2.1"
+COPYRIGHT="2010 Aaron Perez"
+ARCHITECTURE="x86"
+PROVIDES="
+        netpanzer = $portVersion
+        "
+REQUIRES="
+        haiku$secondaryArchSuffix >= $haikuVersion
+        lib:libsdl$secondaryArchSuffix >= 1.2.14
+        lib:libsdl_mixer$secondaryArchSuffix >= 1.2.11
+        lib:libphysfs$secondaryArchSuffix >= 2.0.1
+        lib:liblua$secondaryArchSuffix >= 5.1.4
+        
+        "
+BUILD_REQUIRES="
+        haiku${secondaryArchSuffix}_devel >= $haikuVersion
+        devel:libsdl$secondaryArchSuffix >= 1.2.14
+        devel:libsdl_mixer$secondaryArchSuffix >= 1.2.11
+        devel:libphysfs$secondaryArchSuffix >= 2.0.1
+        devel:liblua$secondaryArchSuffix >= 5.1.4
+        "
+BUILD_PREREQUIRES="
+        cmd:cmake
+        cmd:scons
+        "
+
+BUILD()
+{
+        cd netpanzer-0.8.3
+        scons
+}
+
+INSTALL()
+{
+       cd netpanzer-0.8.3
+       mkdir -p $appsDir/netpanzer
+       cp -rf build $appsDir/netpanzer
+       cp -rf cache $appsDir/netpanzer
+       cp -rf docs $appsDir/netpanzer
+       cp -rf maps $appsDir/netpanzer
+       cp -rf pics $appsDir/netpanzer
+       cp -rf powerups $appsDir/netpanzer
+       cp -rf scripts $appsDir/netpanzer
+       cp -rf sound $appsDir/netpanzer
+       cp -rf support $appsDir/netpanzer
+       cp -rf units $appsDir/netpanzer
+       cp -rf wads $appsDir/netpanzer
+       cp netpanzer $appsDir/netpanzer
+       cp README $appsDir/netpanzer
+       find $appsDir/netpanzer -type d -name ".svn" | xargs rm -rf
+}
