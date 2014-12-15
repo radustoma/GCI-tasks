@@ -6,27 +6,33 @@ DESCRIPTION="netPanzer is an online multiplayer tactical warfare game
   quickly and constantly as destroyed players respawn with a set of new
   units. Players can join or leave multiplayer games at any time.
   "
-HOMEPAGE="http://www.netpanzer.org"
-SRC_URI="svn+svn://svn.berlios.de/netpanzer/trunk/netpanzer#1208"
+HOMEPAGE="http://www.netpanzer.info"
+SRC_URI="git+https://github.com/Rominagrobis/OldNetPanzer.git"
 #CHECKSUM_MD5=""
-REVISION="2"
+REVISION="1"
 LICENSE="GNU LGPL v2.1"
 COPYRIGHT="2010 Aaron Perez"
-ARCHITECTURE="x86"
+ARCHITECTURES="x86"
+if [ $effectiveTargetArchitecture != x86_gcc2 ]; then
+	# x86_gcc2 is fine as primary target architecture as long as we're building
+	# for a different secondary architecture.
+	ARCHITECTURES="$ARCHITECTURES x86_gcc2"
+fi
+SECONDARY_ARCHITECTURES="x86"
 PROVIDES="
         netpanzer = $portVersion
         "
 REQUIRES="
         haiku$secondaryArchSuffix >= $haikuVersion
-        lib:libsdl$secondaryArchSuffix >= 1.2.14
+        lib:libsdl$secondaryArchSuffix
         lib:libsdl_mixer$secondaryArchSuffix >= 1.2.11
         lib:libphysfs$secondaryArchSuffix >= 2.0.1
         lib:liblua$secondaryArchSuffix >= 5.1.4
-        
+  
         "
 BUILD_REQUIRES="
         haiku${secondaryArchSuffix}_devel >= $haikuVersion
-        devel:libsdl$secondaryArchSuffix >= 1.2.14
+        devel:libsdl$secondaryArchSuffix
         devel:libsdl_mixer$secondaryArchSuffix >= 1.2.11
         devel:libphysfs$secondaryArchSuffix >= 2.0.1
         devel:liblua$secondaryArchSuffix >= 5.1.4
