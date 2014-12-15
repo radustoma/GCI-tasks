@@ -1,0 +1,30 @@
+Radu T
+git chekout newb
+
+PATCHES="jampatch-1.patch"
+
+#681e87d6d4"
+
+make OBJ_DIR=objects \
+		BUILDHOME=`finddir B_SYSTEM_DEVELOP_DIRECTORY`
+
+haikuporter --no-dependencies -S beezer
+cmake v =>2.8; cmake.v=3.0
+
+~> haikuporter --no-dependencies -S -v netpanzer_x86
+Checking if any package-infos need to be updated ...
+Looking for stale dependency-infos ...
+----------------------------------------------------------------------
+games-strategy::netpanzer_x86-0.8.3
+        /boot/home/haikuports/games-strategy/netpanzer/netpanzer-0.8.3.recipe
+----------------------------------------------------------------------
+Skipping download of source for OldNetPanzer.git
+Cleaning source dir for OldNetPanzer.git
+Unpacking source of OldNetPanzer.git
+tar: krom-svn1421/wads/.svn/text-base/summer12mb.tls.svn-base: Cannot write: No space left on device
+tar: krom-svn1421/wads/summer12mb.tls: Cannot open: No space left on device
+tar: masterserver-0.2.9: Cannot mkdir: No space left on device
+
+
+
+
