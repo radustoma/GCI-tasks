@@ -8,7 +8,6 @@ DESCRIPTION="netPanzer is an online multiplayer tactical warfare game
   "
 HOMEPAGE="http://www.netpanzer.info"
 SRC_URI="git+https://github.com/Rominagrobis/OldNetPanzer.git"
-#CHECKSUM_MD5=""
 REVISION="1"
 LICENSE="GNU LGPL v2.1"
 COPYRIGHT="2010 Aaron Perez"
@@ -27,15 +26,15 @@ REQUIRES="
         lib:libsdl$secondaryArchSuffix
         lib:libsdl_mixer$secondaryArchSuffix >= 1.2.11
         lib:libphysfs$secondaryArchSuffix >= 2.0.1
-        lib:liblua$secondaryArchSuffix >= 5.1.4
+        lib:liblua
   
         "
 BUILD_REQUIRES="
         haiku${secondaryArchSuffix}_devel >= $haikuVersion
         devel:libsdl$secondaryArchSuffix
-        devel:libsdl_mixer$secondaryArchSuffix >= 1.2.11
+        devel:libsdl_mixer$secondaryArchSuffix
         devel:libphysfs$secondaryArchSuffix >= 2.0.1
-        devel:liblua$secondaryArchSuffix >= 5.1.4
+        devel:liblua
         "
 BUILD_PREREQUIRES="
         cmd:cmake
@@ -44,7 +43,7 @@ BUILD_PREREQUIRES="
 
 BUILD()
 {
-        cd netpanzer-0.8.3
+	cd krom-svn1421
         scons
 }
 
