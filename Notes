@@ -1,29 +1,385 @@
-Radu T
-git chekout newb
-
-PATCHES="jampatch-1.patch"
-
-#681e87d6d4"
-
-make OBJ_DIR=objects \
-		BUILDHOME=`finddir B_SYSTEM_DEVELOP_DIRECTORY`
-
-haikuporter --no-dependencies -S beezer
-cmake v =>2.8; cmake.v=3.0
-
-~> haikuporter --no-dependencies -S -v netpanzer_x86
-Checking if any package-infos need to be updated ...
-Looking for stale dependency-infos ...
-----------------------------------------------------------------------
-games-strategy::netpanzer_x86-0.8.3
-        /boot/home/haikuports/games-strategy/netpanzer/netpanzer-0.8.3.recipe
-----------------------------------------------------------------------
-Skipping download of source for OldNetPanzer.git
-Cleaning source dir for OldNetPanzer.git
-Unpacking source of OldNetPanzer.git
-tar: krom-svn1421/wads/.svn/text-base/summer12mb.tls.svn-base: Cannot write: No space left on device
-tar: krom-svn1421/wads/summer12mb.tls: Cannot open: No space left on device
-tar: masterserver-0.2.9: Cannot mkdir: No space left on device
+scons: Building targets ...
+o build/release/src/NetPanzer/Actions/ActionManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Actions/ActionManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Actions/ActionManagerGUIActions.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Actions/ActionManagerGUIActions.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Actions/ActionManagerSystemActions.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Actions/ActionManagerSystemActions.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Bot/Bot.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Bot/Bot.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Bot/BotPlayer.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Bot/BotPlayer.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Bot/BotTaskList.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Bot/BotTaskList.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/MapFile.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/MapFile.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/OpcodeDebugger.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/OpcodeDebugger.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/PlacementMatrix.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/PlacementMatrix.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/PlayerState.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/PlayerState.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/PlayerUnitConfig.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/PlayerUnitConfig.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/ScreenSurface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/ScreenSurface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/SelectionBoxSprite.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/SelectionBoxSprite.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/SelectionList.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/SelectionList.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/SpawnList.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/SpawnList.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Sprite.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Sprite.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/SpriteSorter.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/SpriteSorter.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/TileSet.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/TileSet.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/ViewCamera.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/ViewCamera.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/WorldInputCmdProcessor.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/WorldInputCmdProcessor.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/WorldMap.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/WorldMap.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/AI/Astar.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/AI/Astar.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/AI/PathList.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/AI/PathList.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/AI/PathingState.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/AI/PathingState.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/ClientConnectDaemon.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/ClientConnectDaemon.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/ClientMessageRouter.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/ClientMessageRouter.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/ConnectNetMessage.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/ConnectNetMessage.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/NetMessageDecoder.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/NetMessageDecoder.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/NetMessageEncoder.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/NetMessageEncoder.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/NetPacketDebugger.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/NetPacketDebugger.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/NetPacketQueues.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/NetPacketQueues.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/NetworkClient.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/NetworkClient.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/NetworkInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/NetworkInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/NetworkServer.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/NetworkServer.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/NetworkState.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/NetworkState.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/ServerConnectDaemon.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/ServerConnectDaemon.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Classes/Network/ServerMessageRouter.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Classes/Network/ServerMessageRouter.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Core/NetworkGlobals.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Core/NetworkGlobals.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Core/main.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Core/main.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/BaseGameManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/BaseGameManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/BotGameManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/BotGameManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/ChatInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/ChatInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/ConfigVariable.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/ConfigVariable.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/Console.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/Console.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/ConsoleInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/ConsoleInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/DedicatedGameManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/DedicatedGameManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/GameConfig.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/GameConfig.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/GameControlRulesDaemon.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/GameControlRulesDaemon.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/GameManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/GameManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/Heartbeat.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/Heartbeat.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/InfoSocket.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/InfoSocket.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/KeyboardInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/KeyboardInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/MapInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/MapInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/MapsManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/MapsManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/MouseInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/MouseInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/PathScheduler.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/PathScheduler.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/PlayerGameManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/PlayerGameManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/PlayerInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/PlayerInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/ServerConsole.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/ServerConsole.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/StrManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/StrManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/Team.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/Team.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/TeamManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/TeamManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/TileInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/TileInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/VoteManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/VoteManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Interfaces/WorldViewInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Interfaces/WorldViewInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Network/ClientSocket.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Network/ClientSocket.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Network/HTTPClientSocket.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Network/HTTPClientSocket.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Network/NewsGetter.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Network/NewsGetter.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Network/ProxyServer.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Network/ProxyServer.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Objectives/Objective.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Objectives/Objective.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Objectives/ObjectiveInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Objectives/ObjectiveInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/ChunkTrajectoryParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/ChunkTrajectoryParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/CloudParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/CloudParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/CraterParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/CraterParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/DirtKickParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/DirtKickParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/FireParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/FireParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/FireParticleSystem2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/FireParticleSystem2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/FlameParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/FlameParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/FlashParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/FlashParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/GroundExplosionParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/GroundExplosionParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/GroundExplosionParticleSystem2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/GroundExplosionParticleSystem2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/Particle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/Particle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/ParticleInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/ParticleInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/ParticleSystem2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/ParticleSystem2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/ParticleSystemGlobals.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/ParticleSystemGlobals.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/ParticleTweakView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/ParticleTweakView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/Physics.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/Physics.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/PuffParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/PuffParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/RadarPingParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/RadarPingParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/SmokingTrajectoryParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/SmokingTrajectoryParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/SmolderParticleSystem2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/SmolderParticleSystem2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/SnowParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/SnowParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/SnowParticleSystem2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/SnowParticleSystem2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/SparkParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/SparkParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/TemplateExplosionSystem.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/TemplateExplosionSystem.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/TemplateMuzzleSystem.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/TemplateMuzzleSystem.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/TrajectoryParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/TrajectoryParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/VectorPuffParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/VectorPuffParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Particles/WindParticle2D.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Particles/WindParticle2D.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/PowerUps/BonusUnitPowerUp.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/PowerUps/BonusUnitPowerUp.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/PowerUps/EnemyRadarPowerUp.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/PowerUps/EnemyRadarPowerUp.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/PowerUps/PowerUp.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/PowerUps/PowerUp.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/PowerUps/PowerUpInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/PowerUps/PowerUpInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/PowerUps/UnitPowerUp.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/PowerUps/UnitPowerUp.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Resources/ResourceManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Resources/ResourceManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Scripts/NetPanzerModule.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Scripts/NetPanzerModule.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Scripts/ScriptHelper.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Scripts/ScriptHelper.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Scripts/ScriptManager.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Scripts/ScriptManager.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/System/DummySound.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/System/DummySound.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/System/SDLEvents.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/System/SDLEvents.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/System/SDLSound.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/System/SDLSound.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/System/SDLVideo.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/System/SDLVideo.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/System/Sound.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/System/Sound.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Units/UnitBlackBoard.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Units/UnitBlackBoard.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Units/UnitBucketArray.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Units/UnitBucketArray.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Units/UnitGlobals.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Units/UnitGlobals.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Units/UnitInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Units/UnitInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Units/UnitOpcodeDecoder.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Units/UnitOpcodeDecoder.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Units/UnitOpcodeEncoder.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Units/UnitOpcodeEncoder.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Units/UnitProfileInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Units/UnitProfileInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Units/UnitState.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Units/UnitState.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Units/Vehicle.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Units/Vehicle.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Weapons/BulletWeapon.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Weapons/BulletWeapon.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Weapons/MissleWeapon.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Weapons/MissleWeapon.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Weapons/Projectile.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Weapons/Projectile.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Weapons/ProjectileInterface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Weapons/ProjectileInterface.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Weapons/ShellWeapon.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Weapons/ShellWeapon.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Weapons/Weapon.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Weapons/Weapon.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Weapons/WeaponGlobals.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Weapons/WeaponGlobals.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/GameViewGlobals.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/GameViewGlobals.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Theme.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Theme.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/Button.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/Button.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/CheckBox.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/CheckBox.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/Choice.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/Choice.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/Component.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/Component.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/Desktop.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/Desktop.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/InfoBar.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/InfoBar.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/InputField.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/InputField.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/Label.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/Label.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/MiniMap.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/MiniMap.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/View.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/View.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/ViewGlobals.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/ViewGlobals.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/tChatBox.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/tChatBox.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/tHScrollBar.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/tHScrollBar.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/tPlayerStateBox.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/tPlayerStateBox.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/tStringListBox.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/tStringListBox.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Components/tVScrollBar.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Components/tVScrollBar.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/AreYouSureExitView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/AreYouSureExitView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/AreYouSureResignView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/AreYouSureResignView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/ChatView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/ChatView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/CodeStatsView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/CodeStatsView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/DisconectedView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/DisconectedView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/EndRoundView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/EndRoundView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/GFlagSelectionView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/GFlagSelectionView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/GameTemplateView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/GameTemplateView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/GameView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/GameView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/HelpScrollView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/HelpScrollView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/LibView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/LibView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/LoadingView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/LoadingView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/MiniMapView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/MiniMapView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/PrepareTeam.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/PrepareTeam.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/RankTeam.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/RankTeam.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/RankView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/RankView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/VehicleSelectionView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/VehicleSelectionView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/Game/VoteBox.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/Game/VoteBox.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/MainMenuView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/MainMenuView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/MenuTemplateView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/MenuTemplateView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/OptionsTemplateView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/OptionsTemplateView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/RMouseHackView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/RMouseHackView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/SpecialButtonView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/SpecialButtonView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/Multi/HostOptionsView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/Multi/HostOptionsView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/Multi/IPAddressView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/Multi/IPAddressView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/Multi/MapSelectionView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/Multi/MapSelectionView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/Multi/PlayerNameView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/Multi/PlayerNameView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/Multi/ServerListView.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/Multi/ServerListView.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/Multi/MasterServer/ServerInfo.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/Multi/MasterServer/ServerInfo.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/Multi/MasterServer/ServerList.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/Multi/MasterServer/ServerList.cpp
+sh: o: command not found
+o build/release/src/NetPanzer/Views/MainMenu/Multi/MasterServer/ServerQueryThread.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/NetPanzer/Views/MainMenu/Multi/MasterServer/ServerQueryThread.cpp
+sh: o: command not found
+o build/release/src/Lib/2D/BuiltinFont.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/Lib/2D/BuiltinFont.cpp
+sh: o: command not found
+o build/release/src/Lib/2D/Color.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/Lib/2D/Color.cpp
+sh: o: command not found
+o build/release/src/Lib/2D/ColorTable.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/Lib/2D/ColorTable.cpp
+sh: o: command not found
+o build/release/src/Lib/2D/DigitText.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/Lib/2D/DigitText.cpp
+sh: o: command not found
+o build/release/src/Lib/2D/PackedSurface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/Lib/2D/PackedSurface.cpp
+sh: o: command not found
+o build/release/src/Lib/2D/Palette.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/Lib/2D/Palette.cpp
+sh: o: command not found
+o build/release/src/Lib/2D/RGBColor.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/Lib/2D/RGBColor.cpp
+sh: o: command not found
+o build/release/src/Lib/2D/Span.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/Lib/2D/Span.cpp
+sh: o: command not found
+o build/release/src/Lib/2D/Surface.o -c -mno-ms-bitfields -DPACKAGE_VERSION=\"testing\" -O2 -s -Wall -D_GNU_SOURCE=1 -Isrc/Lib -Isrc/NetPanzer -Isrc/Lib/physfs -Isrc/Lib/lua/etc -Isrc/Lib/lua/src -I/packages/libsdl_x86-1.2.15-7/.self/develop/headers/x86/SDL src/Lib/2D/Surface.cpp
+sh: o: command not found
+ar rc build/release/libs/libnp2d.a build/release/src/Lib/2D/BuiltinFont.o build/release/src/Lib/2D/Color.o build/release/src/Lib/2D/ColorTable.o build/release/src/Lib/2D/DigitText.o build/release/src/Lib/2D/PackedSurface.o build/release/src/Lib/2D/Palette.o build/release/src/Lib/2D/RGBColor.o build/release/src/Lib/2D/Span.o build/release/src/Lib/2D/Surface.o
+sh: ar: command not found
+scons: *** [build/release/libs/libnp2d.a] Error 127
+scons: building terminated because of errors.
+Command '['bash', '-c', '. /wrapper-script']' returned non-zero exit status 2
+keeping chroot folder /Haiku1/home/haikuports/games-strategy/netpanzer/work-x86-0.8.3 intact for inspection
+Error: Build has failed - stopping.
 
 
 
